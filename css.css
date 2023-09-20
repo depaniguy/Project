@@ -1,6 +1,7 @@
 body {
     background-size: 2000px;
     background-image: url('img/1679547205_3-90.jpg');
+    
 }
 .avatar {
     width: 400px;
@@ -32,9 +33,24 @@ body {
 }
 .communication {
     position: absolute;
-     bottom: 2pt; 
+     bottom: 3pt; 
      right: 0pt;
      
+}
+.TABLE{
+    backdrop-filter: blur(15px);
+    background-image: url('img/1679547205_3-90.jpg');
+    border-radius: 25px;
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    width: 850px;
+    height: 500px;
+    border: 3px solid black;
+}
+td{
+    border: 3px solid black;
+    border-radius: 25px;
 }
 @media (min-width: 1001px ){
     .txt2 {

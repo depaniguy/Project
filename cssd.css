@@ -44,6 +44,22 @@ body{
 .txt2{
     color: azure;
 }
+.TABLE{
+    backdrop-filter: blur(15px);
+    background-image: url('img/1679547205_3-90\ \(1\).jpg');
+    border-radius: 25px;
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    width: 850px;
+    height: 500px;
+    border: 3px solid white;
+    color: white;
+}
+td{
+    border: 3px solid white;
+    border-radius: 25px;
+}
 @media (min-width: 1001px ){
     .txt2 {
        position: absolute;
